@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function bienvenido() {
+            var nombre = document.getElementById("name").value;
+                apellido = document.getElementById("subname").value;
+            alert ('Bienvenido ' + nombre + ' ' + apellido);
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Practica bloque 3</h1>
+    <p>Introduce nombre <input type="text" id="name"> Introduce apellido 1 <input type="text" id="subname" onchange="bienvenido()"></p>
+</body>
+</html>
